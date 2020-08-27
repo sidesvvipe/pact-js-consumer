@@ -5,6 +5,7 @@
   "scripts": {
     "test:consumer": "./node_modules/.bin/mocha test/consumer.spec.js",
     "test:publish": "node test/publish.js",
+    "test:publish2": "node test/publish2.js",
     "can-i-deploy:consumer": "pact-broker can-i-deploy --pacticipant 'Matching Service' --latest --broker-base-url https://test.pact.dius.com.au --broker-username dXfltyFMgNOFZAxr8io9wJ37iUpY42M --broker-password O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1",
     "consumer": "node ./consumerService.js"
   },
